@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>MagApp</title>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link href='../libs/font-awesome-4.0.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="pages.css">
+        <link rel="stylesheet" type="text/css" href="../libs/padmag-0.0.0.css">
+        <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Meie+Script' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+
+        <div id="Intro">
+        	<p>
+        		Drehe Dein Ger&auml;t ins Querformat und los geht's!
+        	</p>
+        </div>
+        
+        <div id="Fallback">
+        	<p>
+        	Dein Bildschirm ist leider zu klein f&uuml;r die Darstellung des PadMags.
+        	</p>
+        	<p>
+        	Du kannst hier aber den kompletten Artikel als Webseite ansehen: <a href="http://http://www.silvmedia.de/blog/"></a>
+        	</p>
+        </div>
+
+        <div class="scrollable" id="scrollable">
+            <div class="items">
+
+                <div class="page" id="Page1"> 
+                        <div class="block">
+                        	<h1>Fender Signature Model</h1>
+                        	<hr />
+                        	<h2>Richie Sambora</h2>
+                        	<small>Black Paisley</small>
+                        </div>
+                </div>
+                
+                <div class="page" id="Page9">
+                    <div class="block">                    
+                    <a href="http://www.silvmedia.de/blog/?page_id=9461" target="new">zur Webseite</a>
+                    <button type="button" onclick="PadMag.goToPage(0)">von vorn ansehen</button><br />
+                    <a href="../fender_80s_strat/index.html">Fender 80</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <button class="prev browse"><</button>
+        <button class="next browse">></button>
+		<button id="Text" type="button" onclick="$('.block').toggle()">
+			<span class="fa-stack fa-lg">
+  				<i class="fa fa-circle-o fa-inverse fa-stack-2x"></i>
+  				<i class="fa fa-font fa-inverse fa-stack-1x"></i>
+			</span>
+		</button>
+		<button id="Menu">
+			<span class="fa-stack fa-lg">
+  				<i class="fa fa-circle-o fa-inverse fa-stack-2x"></i>
+  				<i class="fa fa-bars fa-inverse fa-stack-1x"></i>
+			</span>
+		</button>
+
+        <script src="../libs/jquery.tools.min.js"></script>
+		<script src="../libs/padmag-0.0.0.js"></script>
+        
+        <script>
+        /*
+        
+        # Documentation
+        
+        ## CSS
+        
+        ### Identifier
+        
+        #### Intro
+        
+        The intro is shown while loading and when the screen mode is not landscape.
+        
+        #### PageX
+        
+        ### Classes
+        
+        ### Properties (PadMag)
+        
+        #### current_page
+                
+        #### page_animation
+        
+        SLIDE | FADE
+        
+        ### Methods (PadMag)
+        
+        */ 
+        </script>
+        
+        <script>
+			            
+        </script>
+
+    </body>
+</html>

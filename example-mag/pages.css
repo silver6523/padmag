@@ -1,0 +1,158 @@
+ #Page1 {
+                background-size: 100%;
+                background-image: url(page1/background_hd.jpg);
+                position: relative;
+            }
+
+#Page1 .block {
+	background-color: transparent;
+	position: absolute;
+	bottom: 5%;
+	left: 3%;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	width: 50%;
+}
+
+#Page1 h1 {
+	font-size: 20pt;
+	font-family: 'Meie Script', cursive;
+	margin: 0px;
+	padding: 0px;
+}
+
+#Page1 h2 {
+	font-size: 30pt;
+	font-height: 30pt;
+	font-family: 'Rock Salt', cursive;
+	margin: 0px;
+	padding: 0px;
+}
+
+#Page1 small {
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+#Page2 {
+	background-size:100%;
+    background-image: url(page2/background_hd.jpg);
+    position: relative;
+}
+
+#Page2 .block {
+	position: absolute;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	width: 30%;
+	top: 5%;
+	left: 5%;
+	background-color: #fff;
+	opacity: 0.8;
+	color: #000;
+	padding: 30px;
+}
+
+#Page3 {
+	background-image: url(page3/background_hd.jpg);
+    background-size:100%;
+    position: relative; 
+}
+
+#Page3 .block {
+	position: absolute;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	width: 30%;
+	top: 5%;
+	right: 5%;
+	background-color: #fff;
+	opacity: 0.8;
+	color: #000;
+	padding: 30px;
+}
+
+#Page4 {
+	background-image: url(page4/background_hd.jpg);
+    background-size: 100%;
+    position: relative; 
+}
+
+#Page4 .block {
+	position: absolute;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	width: 30%;
+	top: 5%;
+	right: 5%;
+	background-color: #fff;
+	opacity: 0.8;
+	color: #000;
+	padding: 30px;
+}
+
+#Page5 {
+	background-image: url(page5/background_hd.jpg);
+    background-size: 100%;
+    position: relative; 
+}
+
+#Page5 .block {
+	position: absolute;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	width: 30%;
+	bottom: 5%;
+	right: 5%;
+	background-color: #fff;
+	opacity: 0.8;
+	color: #000;
+	padding: 30px;
+}
+
+#Page6 {
+	background-image: url(page6/background_hd.jpg);
+    background-size: 100%;
+    position: relative; 
+}
+
+#Page6 .block {
+	position: absolute;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	width: 80%;
+	bottom: 5%;
+	left: 5%;
+	background-color: #fff;
+	opacity: 0.8;
+	color: #000;
+	padding: 30px;
+}
+
+#Page6 .block p {
+	width: 45%;
+	float: left;
+	margin-left: 20px;
+}
+
+#Page7 {
+	background-image: url(page7/background_hd.jpg);
+    background-size: 100%;
+    position: relative; 
+}
+
+#Page8 {
+	background-image: url(page8/background_hd.jpg);
+    background-size: 100%;
+    position: relative; 
+}
+
+#Page9 {
+	background-color: #000;
+}
